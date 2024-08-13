@@ -18,7 +18,7 @@ Project Management System is a full-stack web application designed to help teams
 - **Task Management**: Assign tasks to users, update task statuses (e.g., assigned, in-progress, done).
 - **React Frontend**: Modern UI built with React and Vite. (WIP)
 - **Spring Boot Backend**: RESTful API built with Spring Boot.
-- **PostgreSQL Database**: Data storage and retrieval using PostgreSQL. (WIP)
+- **PostgreSQL Database**: Data storage and retrieval using PostgreSQL. (WIP, local only atm)
 
 
 ### Prerequisites
