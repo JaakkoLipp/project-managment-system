@@ -16,14 +16,47 @@ Project Management System is a full-stack web application designed to help teams
 - **User Management**: Create and manage users.
 - **Project Management**: Create, update, delete projects.
 - **Task Management**: Assign tasks to users, update task statuses (e.g., assigned, in-progress, done).
-- **React Frontend**: Modern UI built with React and Vite.
+- **React Frontend**: Modern UI built with React and Vite. (WIP)
 - **Spring Boot Backend**: RESTful API built with Spring Boot.
 - **PostgreSQL Database**: Data storage and retrieval using PostgreSQL.
 
-## Getting Started
 
 ### Prerequisites
 
 - **Java 21+**
 - **Node.js 18+ and npm**
 - **PostgreSQL 14+**
+
+
+## API Endpoints
+
+### Users
+
+- **GET /api/users**: Get all users.
+- **POST /api/users**: Create a new user.
+- **PUT /api/users/{id}**: Update a user by ID.
+- **DELETE /api/users/{id}**: Delete a user by ID.
+
+### Projects
+
+- **GET /api/projects**: Get all projects.
+- **POST /api/projects**: Create a new project.
+- **PUT /api/projects/{id}**: Update a project by ID.
+- **DELETE /api/projects/{id}**: Delete a project by ID.
+
+### Tasks
+
+- **GET /api/tasks**: Get all tasks.
+- **POST /api/tasks**: Create a new task.
+- **PUT /api/tasks/{id}**: Update a task by ID.
+- **DELETE /api/tasks/{id}**: Delete a task by ID.
+
+## Testing
+
+- Use Postman or similar tools to test API endpoints.
+- Ensure your Spring Boot application is running and connected to PostgreSQL before running tests.
+
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
